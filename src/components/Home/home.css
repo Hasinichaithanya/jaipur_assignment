@@ -1,0 +1,128 @@
+.home-page {
+  background-color: #00a7f8;
+  font-family: open-sans;
+  min-height: 100vh;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.home-page-bottom-container {
+  padding-left: 10px;
+}
+
+.carousel-image {
+  height: auto;
+  justify-self: center;
+  align-self: center;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.profile-icon {
+  color: #00a7f8;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.menu {
+  padding: 10px;
+  padding-top: 17px;
+}
+.greeting {
+  text-align: left;
+  font-weight: bold;
+  padding-left: 16px;
+}
+.carousel-container {
+  display: none;
+}
+.carousel-image {
+  background-color: #00a7f8;
+}
+.bottom-line {
+  font-size: 10px;
+  font-weight: bold;
+}
+.greeting {
+  text-align: left;
+  font-weight: bold;
+  padding-left: 16px;
+}
+.new {
+  display: none;
+}
+.bottom-line {
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .home-page {
+    background-color: #00a7f8;
+    padding-left: 10px;
+    font-family: open-sans;
+    color: #ffffff;
+  }
+
+  .carousel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .carousel-image {
+    height: 200px;
+    border-radius: 10px;
+  }
+  .carousel-btns-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .carousel-btn {
+    background-color: #00a7f8;
+    border: none;
+    color: #ffffff;
+    font-weight: 900;
+  }
+  .new-image-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #00a7f8;
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 0px;
+  }
+  .images-container {
+    display: none;
+  }
+  .new-image {
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .new {
+    align-self: flex-start;
+    justify-self: flex-start;
+    background-color: orange;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    transform: rotate(-15deg);
+    width: 35px;
+    position: relative;
+    top: -185px;
+    left: 10px;
+    text-align: center;
+  }
+  .bottom-line {
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
