@@ -51,15 +51,13 @@
   font-weight: bold;
   padding-left: 16px;
 }
-.new {
-  display: none;
-}
+
 .bottom-line {
   font-size: 17px;
   padding-bottom: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .home-page {
     background-color: #00a7f8;
     padding-left: 10px;
@@ -124,5 +122,10 @@
   .bottom-line {
     font-size: 13px;
     font-weight: bold;
+  }
+}
+@media (min-width: 650px) {
+  .new {
+    display: none;
   }
 }
